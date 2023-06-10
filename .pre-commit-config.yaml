@@ -1,0 +1,20 @@
+repos:
+  - repo: meta
+    hooks:
+    - id: check-hooks-apply
+    - id: check-useless-excludes
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: check-case-conflict
+      - id: check-added-large-files
+      - id: check-shebang-scripts-are-executable
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: requirements-txt-fixer
+      - id: check-toml
+      - id: check-case-conflict
+      - id: check-docstring-first
