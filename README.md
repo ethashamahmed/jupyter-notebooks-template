@@ -1,6 +1,6 @@
 # Jupyter Notebooks Template Project
 
-This is template to use for starting any projects that need [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest).
+Example repository to use as template for starting any projects that need [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest).
 
 ## Getting started
 
