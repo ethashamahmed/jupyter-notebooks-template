@@ -4,6 +4,7 @@ help: ## This help test.
 
 .PHONY: init
 init: ## Install required dependencies.
+	@pre-commit install
 	@python -m pip install --upgrade pip;
 	@pip install -r requirements.txt;
 

@@ -2,5 +2,9 @@
 .venv
 venv
 
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
 # VScode
 .vscode
